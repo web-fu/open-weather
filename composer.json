@@ -1,4 +1,7 @@
 {
+  "name": "web-fu/openweather",
+  "type": "library",
+  "description": "OpenWeather API library",
   "require": {
     "php": "^7.2.5",
     "ext-json": "*"
