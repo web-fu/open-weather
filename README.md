@@ -1,5 +1,5 @@
-# OpenWeaver Library
-PHP Library for Open Weaver API
+# OpenWeather Library
+PHP Library for Open Weather API
 
 OpenWeather global services (https://openweathermap.org/) provides  historical, current and forecasted weather data via light-speed APIs.
 

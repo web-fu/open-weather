@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace WebFu\OpenWeaver;
+namespace WebFu\OpenWeather;
 
-class OpenWeaver
+class OpenWeather
 {
     /** @var string */
     private $apiKey;
@@ -17,7 +17,7 @@ class OpenWeaver
     const BASE_URI = 'https://api.openweathermap.org';
 
     /**
-     * OpenWeaver constructor.
+     * OpenWeather constructor.
      *
      * @param string $apiKey
      * @param string $version
@@ -29,19 +29,11 @@ class OpenWeaver
     }
 
     /**
-     * @return CurrentWeaver
-     */
-    public function getCurrentWeaver(): CurrentWeaver
-    {
-        return new CurrentWeaver($this->apiKey, $this->version);
-    }
-
-    /**
      * @param string $lang
      *
-     * @return OpenWeaver
+     * @return OpenWeather
      */
-    public function setLang(string $lang): OpenWeaver
+    public function setLang(string $lang): OpenWeather
     {
         $this->lang = $lang;
 
@@ -51,9 +43,9 @@ class OpenWeaver
     /**
      * @param string $units
      *
-     * @return OpenWeaver
+     * @return OpenWeather
      */
-    public function setUnits(string $units): OpenWeaver
+    public function setUnits(string $units): OpenWeather
     {
         $this->units = $units;
 
