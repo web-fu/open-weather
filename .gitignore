@@ -1,8 +1,7 @@
 .DS_Store
 phpunit.xml
 phpcs.xml
+.php_cs.cache
 composer.lock
 vendor
-examples/testfile-small.txt
-examples/testfile.txt
 tests/.apiKey
