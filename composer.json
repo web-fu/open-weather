@@ -2,7 +2,7 @@
   "name": "web-fu/openweather",
   "type": "library",
   "description": "OpenWeather API library",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "require": {
     "php": "^7.2.5",
     "ext-json": "*"
